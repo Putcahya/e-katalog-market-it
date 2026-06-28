@@ -1,6 +1,6 @@
 <?php include 'layouts/header_admin.php'; ?>
 <?php
-require_once '../koneksi.php'; // Pastikan path ke koneksi database benar
+require_once __DIR__ . '/../koneksi.php'; 
 
 // Query untuk mengambil data dari tabel slider
 $query = "SELECT * FROM slider";
